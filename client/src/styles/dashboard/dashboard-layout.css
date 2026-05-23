@@ -1,0 +1,45 @@
+.dashboard-page {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(2, 6, 23, 0.72), rgba(2, 6, 23, 0.72)),
+    url("https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1800&q=80");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 35px 18px;
+}
+
+.dashboard-shell {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.dashboard-badge,
+.section-label {
+  display: inline-block;
+  background: rgba(37, 99, 235, 0.12);
+  color: #2563eb;
+  padding: 7px 13px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.dashboard-hero,
+.stat-card,
+.upload-card,
+.result-card,
+.history-section,
+.loading-card {
+  backdrop-filter: blur(14px);
+}
+
+.stat-card,
+.upload-card,
+.result-card,
+.history-section,
+.loading-card {
+  background: rgba(255, 255, 255, 0.92);
+}

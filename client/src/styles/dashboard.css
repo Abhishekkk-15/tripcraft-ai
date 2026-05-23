@@ -1,0 +1,8 @@
+@import "./dashboard/dashboard-layout.css";
+@import "./dashboard/dashboard-hero.css";
+@import "./dashboard/dashboard-stats.css";
+@import "./dashboard/dashboard-upload.css";
+@import "./dashboard/dashboard-loading.css";
+@import "./dashboard/dashboard-result-history.css";
+@import "./dashboard/dashboard-modal.css";
+@import "./dashboard/dashboard-responsive.css";

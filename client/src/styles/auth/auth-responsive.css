@@ -1,0 +1,40 @@
+@media (max-width: 850px) {
+  .auth-page {
+    grid-template-columns: 1fr;
+  }
+
+  .auth-left {
+    padding: 45px 28px 10px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .auth-left h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .auth-left p {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .auth-features {
+    align-items: center;
+  }
+
+  .auth-right {
+    padding: 25px;
+  }
+
+  .auth-card {
+    padding: 32px 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .auth-card h2,
+  .auth-subtitle {
+    text-align: center;
+  }
+}
