@@ -13,7 +13,7 @@ import ResultSection from "../components/dashboard/ResultSection";
 import HistorySection from "../components/dashboard/HistorySection";
 import LogoutModal from "../components/dashboard/LogoutModal";
 
-import { validateTravelFile } from "../utils/fileValidation";
+import { validateTravelFile } from "../utils/filevalidation";
 import { downloadPDF } from "../utils/pdfHelper";
 import { shareWhatsApp } from "../utils/shareHelper";
 
